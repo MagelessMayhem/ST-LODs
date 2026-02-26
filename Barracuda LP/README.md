@@ -15,3 +15,5 @@ Windows:
 Unix-based systems:
 
 `openSeaChest_Firmware -d /dev/sgX --downloadFW <LOD> --downloadMode segmented`
+
+Note that if your Barracuda LP model already has CC35, or a potentially later firmware version, this update is not necessary.
