@@ -8,4 +8,10 @@ The following LODs are available, with compatible models:
 
 To install any of the LODs, use the following (assuming you scanned the drive list with openSeaChest previously):
 
+Windows:
+
+`openSeaChest_Firmware -d \\.\PhysicalDriveX --downloadFW <LOD> --downloadMode segmented`
+
+Unix-based systems:
+
 `openSeaChest_Firmware -d /dev/sgX --downloadFW <LOD> --downloadMode segmented`
