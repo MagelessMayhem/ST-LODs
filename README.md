@@ -4,9 +4,10 @@ This repository contains a variety of LOD files specifically meant to assist wit
 
 I highly suggest using openSeaChest for this task, as its `openSeaChest_Firmware` sub-command is capable of directly flashing LOD files to compatible drives. It also has the necessary checks in place to prevent firmware mismatching. You can download openSeaChest [here.](https://github.com/Seagate/openSeaChest)
 
-To find the correct update, you will need to determine two things:
+To find the correct update, you will need to determine three things:
 - What series your drive is from (i.e. Barracuda 7200.12);
 - What platform your drive is based on. Models upon that platform are listed in the appropriate series folder.
+- Whether your drive actually has an update available. The [Download Finder](https://apps1.seagate.com/downloads/request.html) can help with this.
 
 In some cases, like with Barracuda 7200.11, you may also need to determine what _firmware branch_ your drive is on so as to prevent potential corruption. (This is also mentioned in the appropriate series folder, so that work is done for you.)
 
